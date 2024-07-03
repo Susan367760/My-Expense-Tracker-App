@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Expenses</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>View Expenses</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="add_expense.html">Add Expense</a></li>
+            <li><a href="view_expense.html">View Expenses</a></li>
+        </ul>
+    </nav>
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Expense Name</th>
+                    <th>Amount</th>
+                    <th>Date</th>
+                    <th>Category</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Expenses will be dynamically added here -->
+                <tr>
+                    <td>1</td>
+                    <td>Office Supplies</td>
+                    <td>50.00</td>
+                    <td>2024-07-03</td>
+                    <td>Office</td>
+                    <td>
+                        <a href="edit_expense.html">Edit</a> |
+                        <a href="#">Delete</a>
+                    </td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
